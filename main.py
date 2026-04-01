@@ -1,60 +1,64 @@
-banco_de_dados = {}
+# 4 tipos dados
+# variáveis 
+# listas 
+# tuplas 
+# dicionarios 
+# I/O 
+# sinais lógicos 
+# sinais Aritméticos
+# concatenação
 
 
 
-id = input('Digite o ID: ')
-produto = input('Produto: ')
-preco = float(input('Preço: '))
+# expressões lógicas 
 
 
-banco_de_dados['ID'] = id
-banco_de_dados['Produtos']  = produto
-banco_de_dados['Preço'] = preco
-banco_de_dados['cursos'] = ['ads','adm','ingles']
+# and, or ,not, in
+ 
+# AND -  E
 
 
 
-print(banco_de_dados['Preço'])
+
+x  =  10
+y  =  10
 
 
-banco_de_dados['cursos'].append('espanhol')
+carteira_motorista = 'sim'
+idade  = 25
 
 
-lista = [10,20,30]
-#        0   1  2
-
-
-
-print(banco_de_dados.keys())
-
-
-
-print(banco_de_dados.keys())
-banco_de_dados= {}
+print(carteira_motorista == 'sim' and idade < 17)
 
 
 
-id = input('Digite o ID: ')
-produto = input('Produto: ')
-preco = float(input('Preço: '))
+# OR - OU 
 
 
-banco_de_dados['ID'] = id
-banco_de_dados['Produtos']  = produto
-banco_de_dados['Preço'] = preco
-banco_de_dados['cursos'] = ['ads','adm','ingles']
+tempo  =  input('Digite o tempo: ')
 
 
-
-print(banco_de_dados['Preço'])
-
-
-banco_de_dados['cursos'].append('espanhol')
+print(tempo == 'calor' or  tempo == 'frio'  )
 
 
-lista = [10,20,30]
-#        0   1  2
+# ambas verdadeiras ou ao menos uma expressão true
 
 
 
-print(banco_de_dados.keys())
+# not não 
+# é veridadeiro quando ao contrário
+salario =  input('O salario caiu? ')
+
+
+print(not tempo  == 'calor' and  not  salario == 'não') 
+
+
+# in -  dentro
+
+
+lista  =  [1,2,3]
+
+
+print(1 in lista or not 2 in lista)
+
+
