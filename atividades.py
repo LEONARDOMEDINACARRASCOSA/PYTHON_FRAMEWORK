@@ -46,26 +46,21 @@
 # Use and para verificar as duas condições e exiba "Acesso liberado" ou "Acesso negado".
 
 
-email = ("admin")
-senha = 1234
+# email = ("admin")
+# senha = 1234
 
-a  = input("DIGITE SEU EMAIL :")
-b = float(input("DIGITE SUA SENHA :"))
+# a  = input("DIGITE SEU EMAIL :")
+# b = float(input("DIGITE SUA SENHA :"))
 
-validacao_1 = a == email and b == senha 
-validacao_2 = a != email or b != senha
+# validacao_1 = a == email and b == senha 
+# validacao_2 = a != email or b != senha
 
-msg_1 =  validacao_1 and "ACESSO LIVERADO" 
-msg_2 = validacao_2 and "ACESSO NEGADO"
+# msg_1 =  validacao_1 and "ACESSO LIVERADO" 
+# msg_2 = validacao_2 and "ACESSO NEGADO"
 
-print(msg_1 or msg_2)
+# print(msg_1 or msg_2)
 
 
-# 4. Compra com desconto
-# Enunciado:
-# Leia o valor da compra e se o cliente é VIP (True ou False).
-# O cliente ganha 10% de desconto se o valor for maior que R$ 100 ou ele for VIP.
-# Exiba o valor final com desconto (se aplicável) ou o valor original.
 
 
 
@@ -75,6 +70,16 @@ print(msg_1 or msg_2)
 # Leia a idade e o peso.
 # Para doar sangue, a pessoa deve ter entre 16 e 69 anos (inclusive) e pesar pelo menos 50 kg.
 # Use and para verificar ambos os critérios e informe se a pessoa pode doar.
+
+
+# idade = float(input("Digite sua idade : "))
+# peso = float(input("Digite seu peso : "))
+
+# c = idade >= 16 and idade <= 69 and peso >= 50 and "PODE DOAR !!" or "NÃO PODE DAOR"
+
+# print(c)
+
+
 
 
 
@@ -93,6 +98,17 @@ print(msg_1 or msg_2)
 # Leia as notas de Matemática e Português.
 # O aluno é aprovado se ambas as notas forem maiores ou iguais a 6.
 # Use and para verificar e exiba "Aprovado" ou "Reprovado".
+
+
+# n1 = float(input("digite sua nota de MATEMÁTICA : "))
+# n2 = float(input("digite sua nota de PORTUGUÊS : "))
+
+# media = 6
+
+# c = ( n1 and n2 >= media  and "aprovado" or "reprovado" )
+
+
+# print(c)
 
 
 
@@ -114,6 +130,12 @@ print(msg_1 or msg_2)
 
 # "Adulto" se idade ≥ 18
 # Use and e or para definir os intervalos e exiba a classificação.
+
+
+
+idade = int(input("DIGITE SUA IDADE : "))
+
+# c = (idade < 12 or idade > 12 or idade >= 17 "CRINÇA " or )
 
 
 
